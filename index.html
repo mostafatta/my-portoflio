@@ -1,0 +1,187 @@
+<!-- 
+  Hello 😊.
+
+  This portfolio template is customized by Mostafa Atta,
+  a Data Analyst and Web Scraper based in Egypt.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <title>Mostafa Atta | Data Analyst & Web Scraper</title>
+
+  <meta name="description" content="Mostafa Atta – Data Analyst and Web Scraper based in Egypt. Skilled in Python, Power BI, and automation tools.">
+  <meta name="keywords" content="Mostafa Atta, Data Analyst, Web Scraping, Python, Power BI, Selenium, BeautifulSoup, pandas, data visualization, automation" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Mostafa Atta</span>
+        </h1>
+        <p>Data Analyst & Web Scraper</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Projects ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Projects</h2>
+        <div class="work__boxes">
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>E-commerce Price Tracker Dashboard </h3>
+              <p>
+                Developed a dynamic Power BI dashboard to track phone and laptop prices, discounts, and reviews from Jumia, Noon, and Amazon. Data is collected daily via automated Python web scrapers (Selenium & BeautifulSoup). The solution uses a star schema model and includes KPIs like price trends, discount rates, and top-performing brands.
+              </p>
+              <ul class="work__list">
+                <li>Selenium</li>
+                <li>Power Bi</li>
+                <li>Data Cleaning</li>
+              </ul>
+              <div class="work__links">
+                <!-- <a href="#" class="link__text">View Report <span>&rarr;</span></a> -->
+                <a href="https://github.com/mostafatta/Deal-Spy.git"><img src="./images/github.svg" class="work__code" alt="GitHub"></a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/Price tracker.png" class="work__image" alt="Power BI Dashboard" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>HR Analytics Dashboard</h3>
+              <p>
+               Created an interactive Power BI report to analyze employee performance and resignation trends. Key insights include turnover rates, average tenure, department performance, and attrition reasons. The project involved thorough data cleaning and modeling to ensure accurate, multi-dimensional analysis.
+              </p>
+              <ul class="work__list">
+                <li>Power BI</li>
+                <li>Data Cleaning</li>
+                <li>Data Modeling</li>
+               
+              </ul>
+              <div class="work__links">
+                <!-- <a href="#" class="link__text">View Demo <span>&rarr;</span></a>
+                <a href="#"><img src="./images/github.svg" class="work__code" alt="GitHub"></a> -->
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/hr anlaytic.png" class="work__image" alt="Noon Scraper" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>E-commerce Web Scraper</h3>
+              <p>
+                Built a Python-based scraper using Selenium and BeautifulSoup to extract product and seller data (names, prices, ratings, images) from an e-commerce site. Handled dynamic content and pagination. Cleaned and exported data to Excel for catalog creation and market analysis.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Selenium</li>
+                <li>BeautifulSoup</li>
+                <li>pandas</li>
+              </ul>
+              <div class="work__links">
+                <!-- <a href="#" class="link__text">View Output <span>&rarr;</span></a> -->
+                <a href="https://github.com/mostafatta/freelance-2.git"><img src="./images/github.svg" class="work__code" alt="GitHub"></a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/noon scraper.png" class="work__image" alt="Maps Scraper" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              I'm Mostafa Atta, a Data Analyst and Web Scraper passionate about turning data into insights and building Python tools to automate real-world problems. I specialize in Power BI dashboards, Excel reporting, and web scraping using Selenium and BeautifulSoup.
+            </p>
+            
+          </div>
+          <div class="about__photo-container">
+            <img class="about__photo" src="./images/me.png" alt="Mostafa Atta" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Contact ***** -->
+
+    <section class="contact" id="contact">
+      <div class="row">
+        <h2>Get in Touch</h2>
+        <div class="contact__info">
+          <p>
+            Need help analyzing data, building a dashboard, or scraping a website for insights? Let’s talk. Whether it's a freelance gig, consultation, or just tech chat feel free to email me.
+          </p>
+          <a href="mostafasdataverse4@gmail.com" class="btn">mostafasdataverse4@gmail.com</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://x.com/ItsMostafaatta" title="X">
+            <img src="./images/X_logo.jpg" class="footer__social-image" alt="GitHub">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="linkedin.com/in/mostafa-atta-dataverse" title="LinkedIn">
+            <img src="./images/linkedin.svg" class="footer__social-image" alt="LinkedIn">
+          </a>
+        </li>
+      </ul>
+      <p>&copy; 2025 - Built by Mostafa Atta.</p>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
